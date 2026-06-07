@@ -13,6 +13,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173", // dev
   "http://localhost:4173", // preview (build test)
+  "https://mern-todo-frontend-orpin.vercel.app",
 ];
 
 app.use(
